@@ -1,0 +1,59 @@
+.ability {
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  height: 18px;
+  gap: 8px;
+  padding: 2px 0px;
+}
+
+@font-face {
+  font-family: 'Moonglade';
+  src: url('./assets/fonts/Moonglade.ttf') format(truetype);
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Moonrise';
+  src: url('../assets/fonts/Moonrise-Regular.otf') format(truetype);
+  font-weight: normal;
+  font-style: normal;
+  font-display: normal;
+}
+
+.ability .proficiency {
+  height: 7px;
+  width: 7px;
+  border: 1px solid #FDFCEE;
+  border-radius: 0%;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+.ability .proficiency.true{
+  background-color: #FDFCEE;
+}
+
+.ability .bonus {
+  width: 25px;
+  display: flex;
+}
+
+.ability .bonus > span {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-family: 'Moonrise';
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.ability .text {
+  flex: 0 0 auto;
+  position: relative;
+  font-weight: 700;
+  font-size: 0.75rem;
+}

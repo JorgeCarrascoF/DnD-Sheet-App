@@ -1,0 +1,744 @@
+{
+    "name": "Fátima",
+    "class": "Clérigo",
+    "race": "Elfo delbeniano",
+    "alignment": "Neutral Bueno",
+    "level": 5,
+    "max_health": 41,
+    "cur_health": 41,
+    "hit_dice": 5,
+    "metamagic_points": 5,
+    "shield": 0,
+    "speed": 30,
+    "inspired": false,
+    "moonPhase": 0,
+    "eyes_of_night": true,
+    "channel_divinity": [true, true],
+    "stats": [
+        {
+            "name": "Fuerza",
+            "score": 8,
+            "bonus": -1,
+            "prof": false
+        },
+        {
+            "name": "Destreza",
+            "score": 16,
+            "bonus": 3,
+            "prof": false
+        },
+        {
+            "name": "Constitución",
+            "score": 16,
+            "bonus": 3,
+            "prof": false
+        },
+        {
+            "name": "Inteligencia",
+            "score": 8,
+            "bonus": -1,
+            "prof": false
+        },
+        {
+            "name": "Sabiduría",
+            "score": 18,
+            "bonus": 4,
+            "prof": true
+        },
+        {
+            "name": "Carisma",
+            "score": 10,
+            "bonus": 0,
+            "prof": true
+        }
+    ],
+    "abilities": [
+        {
+            "name": "Acrobacias",
+            "bonus": 0,
+            "prof": false
+        },
+        {
+            "name": "Atletismo",
+            "bonus": -1,
+            "prof": false
+        },
+        {
+            "name": "C. Arcano",
+            "bonus": -1,
+            "prof": false
+        },
+        {
+            "name": "Engaño",
+            "bonus": 0,
+            "prof": false
+        },
+        {
+            "name": "Historia",
+            "bonus": -1,
+            "prof": false
+        },
+        {
+            "name": "Interpretación",
+            "bonus": 0,
+            "prof": false
+        },
+        {
+            "name": "Intimidación",
+            "bonus": 0,
+            "prof": false
+        },
+        {
+            "name": "Investigación",
+            "bonus": -1,
+            "prof": false
+        },
+        {
+            "name": "Juego de manos",
+            "bonus": 3,
+            "prof": false
+        },
+        {
+            "name": "Medicina",
+            "bonus": 4,
+            "prof": true
+        },
+        {
+            "name": "Naturaleza",
+            "bonus": -1,
+            "prof": false
+        },
+        {
+            "name": "Percepción",
+            "bonus": 4,
+            "prof": true
+        },
+        {
+            "name": "Perspicacia",
+            "bonus": 4,
+            "prof": true
+        },
+        {
+            "name": "Persuasión",
+            "bonus": 0,
+            "prof": true
+        },
+        {
+            "name": "Religión",
+            "bonus": -1,
+            "prof": true
+        },
+        {
+            "name": "Sigilo",
+            "bonus": 3,
+            "prof": false
+        },
+        {
+            "name": "Supervivencia",
+            "bonus": 4,
+            "prof": false
+        },
+        {
+            "name": "T. con animales",
+            "bonus": 4,
+            "prof": false
+        }
+    ],
+    "death_savings": {
+        "success": [
+            false,
+            false,
+            false
+        ],
+        "fail": [
+            false,
+            false,
+            false
+        ]
+    },
+    "attacks": [
+        {
+            "name": "Daga",
+            "bonus": "+4",
+            "damage": "1d4+1"
+        },
+        {
+            "name": "Rayo de frío",
+            "bonus": "+6",
+            "damage": "2d6"
+        },
+        {
+            "name": "Llama sagrada",
+            "bonus": "+6",
+            "damage": "2d8"
+        }
+    ],
+    "boxes": [
+        "Cosas de Lenore",
+        "Otras cosa de Lenore"
+    ],
+    "spells": [
+        [
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            }
+        ],
+        [
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            }
+        ],
+        [
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            }
+        ],
+        [
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            }
+        ],
+        [
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            }
+        ],
+        [
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            },
+            {
+                "name": "",
+                "nameEN": "",
+                "desc": "",
+                "casting": "",
+                "range": "",
+                "duration": "",
+                "damage": "",
+                "damage_type": "",
+                "higher_level": "",
+                "ritual": false,
+                "concentration": false
+            }
+        ]
+    ],
+    "spell_slots": [
+        [
+            true,
+            true,
+            true,
+            true
+        ],
+        [
+            true,
+            true,
+            true
+        ],
+        [
+            true,
+            true
+        ]
+    ]
+}

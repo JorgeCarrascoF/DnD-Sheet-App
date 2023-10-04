@@ -1,0 +1,47 @@
+.SaveButton {
+    width: 50px;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 5px;
+    left: 35px;
+    cursor: pointer;
+}
+
+.SaveButton > img {
+    height: 50px;
+    z-index: 20;
+}
+
+.SaveButton > .backImg, .SaveButton > .midImg {
+    position: absolute;
+    transition: 0.2s all linear;
+    z-index: 10;
+}
+
+.SaveButton > .midImg {
+    z-index: 15;
+}
+
+.SaveButton:hover > .midImg {
+    transform: rotate(10deg);
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.SaveButton:hover > .backImg {
+    transform: rotate(20deg);
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+
+.SaveButton .saveText {
+    position: absolute;
+    bottom: 0px;
+    left: -10px;
+    color: #FDFCEE;
+    font-size: 0.91rem;
+}

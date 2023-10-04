@@ -1,0 +1,1485 @@
+.box {
+  z-index: 5;
+  height: 890px;
+  width: 489px;
+  background-image: url(../img//StatsBox/statBoxBackground.svg);
+}
+
+.box .overlap {
+  position: relative;
+  height: 890px;
+  width: 489px;
+}
+
+
+.box .frame {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  height: 620px;
+  justify-content: space-between;
+  left: 95px;
+  padding: 5px 0px;
+  position: absolute;
+  top: 240px;
+}
+
+.box .inspiration{
+  height: 100px;
+  cursor: pointer;
+  position: absolute;
+  top: 130px;
+  right: 50%;
+  transform: translate(50%);
+}
+
+.box .stat-frame {
+  position: relative;
+}
+
+.box .overlap-group {
+  height: 75px;
+  position: relative;
+}
+
+.box .vector {
+  height: 67px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  width: 67px;
+}
+
+.box .img {
+  height: 3px;
+  left: 36px;
+  position: absolute;
+  top: 69px;
+  width: 3px;
+}
+
+.box .vector-2 {
+  height: 3px;
+  left: 36px;
+  position: absolute;
+  top: 3px;
+  width: 3px;
+}
+
+.box .vector-3 {
+  height: 1px;
+  left: 3px;
+  position: absolute;
+  top: 37px;
+  width: 3px;
+}
+
+.box .vector-4 {
+  height: 3px;
+  left: 3px;
+  position: absolute;
+  top: 36px;
+  width: 3px;
+}
+
+.box .vector-5 {
+  height: 1px;
+  left: 70px;
+  position: absolute;
+  top: 36px;
+  width: 3px;
+}
+
+.box .vector-6 {
+  height: 3px;
+  left: 70px;
+  position: absolute;
+  top: 36px;
+  width: 3px;
+}
+
+.box .vector-7 {
+  height: 2px;
+  left: 13px;
+  position: absolute;
+  top: 59px;
+  width: 3px;
+}
+
+.box .vector-8 {
+  height: 3px;
+  left: 13px;
+  position: absolute;
+  top: 59px;
+  width: 3px;
+}
+
+.box .vector-9 {
+  height: 2px;
+  left: 13px;
+  position: absolute;
+  top: 14px;
+  width: 3px;
+}
+
+.box .vector-10 {
+  height: 3px;
+  left: 13px;
+  position: absolute;
+  top: 13px;
+  width: 3px;
+}
+
+.box .vector-11 {
+  height: 2px;
+  left: 60px;
+  position: absolute;
+  top: 61px;
+  width: 3px;
+}
+
+.box .vector-12 {
+  height: 3px;
+  left: 60px;
+  position: absolute;
+  top: 60px;
+  width: 3px;
+}
+
+.box .vector-13 {
+  height: 2px;
+  left: 60px;
+  position: absolute;
+  top: 12px;
+  width: 3px;
+}
+
+.box .vector-14 {
+  height: 3px;
+  left: 60px;
+  position: absolute;
+  top: 12px;
+  width: 3px;
+}
+
+.box .vector-15 {
+  height: 11px;
+  left: 64px;
+  position: absolute;
+  top: 64px;
+  width: 11px;
+}
+
+.box .vector-16 {
+  height: 11px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 11px;
+}
+
+.box .text-wrapper {
+  color: #FDFCEE;
+  font-family: "Moonrise-Alternate", Helvetica;
+  font-size: 42px;
+  font-weight: 400;
+  top: 15px;
+  left: 11px;
+  letter-spacing: 3px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+}
+
+.box .fuerza-wrapper {
+  align-items: center;
+  background-color: #3c1b67;
+  border: 0.4px solid;
+  border-color: #FDFCEE;
+  display: flex;
+  flex-direction: column;
+  height: 10px;
+  justify-content: center;
+  top: 60px;
+  left: -7px;
+  padding: 5px 10px 10px;
+  position: absolute;
+  width: 70px;
+}
+
+.box .stat-frame > span {
+  flex: 0 0 auto;
+  color: #FDFCEE;
+  letter-spacing: 1px;
+  margin-bottom: -14px;
+  margin-left: -98.32px;
+  margin-right: -99.15px;
+  margin-top: -7.11px;
+  position: relative;
+}
+
+.box .div {
+  height: 75px;
+  left: -6px;
+  position: relative;
+  width: 89px;
+}
+
+.box .vector-17 {
+  height: 67px;
+  left: 10px;
+  position: absolute;
+  top: 4px;
+  width: 67px;
+}
+
+.box .vector-18 {
+  height: 3px;
+  left: 42px;
+  position: absolute;
+  top: 69px;
+  width: 3px;
+}
+
+.box .vector-19 {
+  height: 3px;
+  left: 42px;
+  position: absolute;
+  top: 3px;
+  width: 3px;
+}
+
+.box .vector-20 {
+  height: 1px;
+  left: 9px;
+  position: absolute;
+  top: 37px;
+  width: 3px;
+}
+
+.box .vector-21 {
+  height: 3px;
+  left: 9px;
+  position: absolute;
+  top: 36px;
+  width: 3px;
+}
+
+.box .vector-22 {
+  height: 1px;
+  left: 76px;
+  position: absolute;
+  top: 36px;
+  width: 3px;
+}
+
+.box .vector-23 {
+  height: 3px;
+  left: 76px;
+  position: absolute;
+  top: 36px;
+  width: 3px;
+}
+
+.box .vector-24 {
+  height: 2px;
+  left: 19px;
+  position: absolute;
+  top: 59px;
+  width: 3px;
+}
+
+.box .vector-25 {
+  height: 3px;
+  left: 19px;
+  position: absolute;
+  top: 59px;
+  width: 3px;
+}
+
+.box .vector-26 {
+  height: 2px;
+  left: 19px;
+  position: absolute;
+  top: 14px;
+  width: 3px;
+}
+
+.box .vector-27 {
+  height: 3px;
+  left: 19px;
+  position: absolute;
+  top: 13px;
+  width: 3px;
+}
+
+.box .vector-28 {
+  height: 2px;
+  left: 66px;
+  position: absolute;
+  top: 61px;
+  width: 3px;
+}
+
+.box .vector-29 {
+  height: 3px;
+  left: 66px;
+  position: absolute;
+  top: 60px;
+  width: 3px;
+}
+
+.box .vector-30 {
+  height: 2px;
+  left: 66px;
+  position: absolute;
+  top: 12px;
+  width: 3px;
+}
+
+.box .vector-31 {
+  height: 3px;
+  left: 66px;
+  position: absolute;
+  top: 12px;
+  width: 3px;
+}
+
+.box .vector-32 {
+  height: 11px;
+  left: 70px;
+  position: absolute;
+  top: 64px;
+  width: 11px;
+}
+
+.box .vector-33 {
+  height: 11px;
+  left: 6px;
+  position: absolute;
+  top: 0;
+  width: 11px;
+}
+
+.box .text-wrapper-2 {
+  color: #FDFCEE;
+  font-family: "Moonrise-Alternate", Helvetica;
+  font-size: 42px;
+  font-weight: 400;
+  top: 14px;
+  left: 16px;
+  letter-spacing: 3px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+}
+
+.box .destreza-wrapper {
+  align-items: center;
+  background-color: #3c1b67;
+  border: 0.4px solid;
+  border-color: #FDFCEE;
+  display: flex;
+  flex-direction: column;
+  height: 10px;
+  justify-content: center;
+  left: -6px;
+  top: 60px;
+  padding: 5px 10px 10px;
+  position: absolute;
+  width: 80px;
+}
+
+.box .destreza {
+  flex: 0 0 auto;
+  margin-bottom: -14px;
+  margin-left: -99.81px;
+  margin-right: -100px;
+  margin-top: -7.11px;
+  position: relative;
+}
+
+.box .overlap-2 {
+  height: 75px;
+  left: -32px;
+  position: relative;
+  width: 140px;
+}
+
+.box .vector-34 {
+  height: 67px;
+  left: 36px;
+  position: absolute;
+  top: 4px;
+  width: 67px;
+}
+
+.box .vector-35 {
+  height: 3px;
+  left: 68px;
+  position: absolute;
+  top: 69px;
+  width: 3px;
+}
+
+.box .vector-36 {
+  height: 3px;
+  left: 68px;
+  position: absolute;
+  top: 3px;
+  width: 3px;
+}
+
+.box .vector-37 {
+  height: 1px;
+  left: 35px;
+  position: absolute;
+  top: 37px;
+  width: 3px;
+}
+
+.box .vector-38 {
+  height: 3px;
+  left: 35px;
+  position: absolute;
+  top: 36px;
+  width: 3px;
+}
+
+.box .vector-39 {
+  height: 1px;
+  left: 102px;
+  position: absolute;
+  top: 36px;
+  width: 3px;
+}
+
+.box .vector-40 {
+  height: 3px;
+  left: 102px;
+  position: absolute;
+  top: 36px;
+  width: 3px;
+}
+
+.box .vector-41 {
+  height: 2px;
+  left: 45px;
+  position: absolute;
+  top: 59px;
+  width: 3px;
+}
+
+.box .vector-42 {
+  height: 3px;
+  left: 45px;
+  position: absolute;
+  top: 59px;
+  width: 3px;
+}
+
+.box .vector-43 {
+  height: 2px;
+  left: 45px;
+  position: absolute;
+  top: 14px;
+  width: 3px;
+}
+
+.box .vector-44 {
+  height: 3px;
+  left: 45px;
+  position: absolute;
+  top: 13px;
+  width: 3px;
+}
+
+.box .vector-45 {
+  height: 2px;
+  left: 92px;
+  position: absolute;
+  top: 61px;
+  width: 3px;
+}
+
+.box .vector-46 {
+  height: 3px;
+  left: 92px;
+  position: absolute;
+  top: 60px;
+  width: 3px;
+}
+
+.box .vector-47 {
+  height: 2px;
+  left: 92px;
+  position: absolute;
+  top: 12px;
+  width: 3px;
+}
+
+.box .vector-48 {
+  height: 3px;
+  left: 92px;
+  position: absolute;
+  top: 12px;
+  width: 3px;
+}
+
+.box .vector-49 {
+  height: 11px;
+  left: 96px;
+  position: absolute;
+  top: 64px;
+  width: 11px;
+}
+
+.box .vector-50 {
+  height: 11px;
+  left: 32px;
+  position: absolute;
+  top: 0;
+  width: 11px;
+}
+
+.box .text-wrapper-3 {
+  color: #FDFCEE;
+  font-family: "Moonrise-Alternate", Helvetica;
+  font-size: 42px;
+  font-weight: 400;
+  top: 12px;
+  left: 43px;
+  letter-spacing: 3px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+}
+
+.box .constitucin-wrapper {
+  align-items: center;
+  background-color: #3c1b67;
+  border: 0.4px solid;
+  border-color: #FDFCEE;
+  display: flex;
+  flex-direction: column;
+  height: 10px;
+  left: -3px;
+  justify-content: center;
+  padding: 5px 10px 10px;
+  position: absolute;
+  top: 56px;
+  width: 130px;
+}
+
+.box .constitucin {
+  flex: 0 0 auto;
+  margin-bottom: -14px;
+  margin-left: -99.92px;
+  margin-right: -99.24px;
+  margin-top: -7.57px;
+  position: relative;
+}
+
+.box .overlap-3 {
+  height: 75px;
+  left: -24px;
+  position: relative;
+  width: 125px;
+}
+
+.box .vector-51 {
+  height: 67px;
+  left: 28px;
+  position: absolute;
+  top: 4px;
+  width: 67px;
+}
+
+.box .vector-52 {
+  height: 3px;
+  left: 60px;
+  position: absolute;
+  top: 69px;
+  width: 3px;
+}
+
+.box .vector-53 {
+  height: 3px;
+  left: 60px;
+  position: absolute;
+  top: 3px;
+  width: 3px;
+}
+
+.box .vector-54 {
+  height: 1px;
+  left: 27px;
+  position: absolute;
+  top: 37px;
+  width: 3px;
+}
+
+.box .vector-55 {
+  height: 3px;
+  left: 27px;
+  position: absolute;
+  top: 36px;
+  width: 3px;
+}
+
+.box .vector-56 {
+  height: 1px;
+  left: 94px;
+  position: absolute;
+  top: 36px;
+  width: 3px;
+}
+
+.box .vector-57 {
+  height: 3px;
+  left: 94px;
+  position: absolute;
+  top: 36px;
+  width: 3px;
+}
+
+.box .vector-58 {
+  height: 2px;
+  left: 37px;
+  position: absolute;
+  top: 59px;
+  width: 3px;
+}
+
+.box .vector-59 {
+  height: 3px;
+  left: 37px;
+  position: absolute;
+  top: 59px;
+  width: 3px;
+}
+
+.box .vector-60 {
+  height: 2px;
+  left: 37px;
+  position: absolute;
+  top: 14px;
+  width: 3px;
+}
+
+.box .vector-61 {
+  height: 3px;
+  left: 37px;
+  position: absolute;
+  top: 13px;
+  width: 3px;
+}
+
+.box .vector-62 {
+  height: 2px;
+  left: 84px;
+  position: absolute;
+  top: 61px;
+  width: 3px;
+}
+
+.box .vector-63 {
+  height: 3px;
+  left: 84px;
+  position: absolute;
+  top: 60px;
+  width: 3px;
+}
+
+.box .vector-64 {
+  height: 2px;
+  left: 84px;
+  position: absolute;
+  top: 12px;
+  width: 3px;
+}
+
+.box .vector-65 {
+  height: 3px;
+  left: 84px;
+  position: absolute;
+  top: 12px;
+  width: 3px;
+}
+
+.box .vector-66 {
+  height: 11px;
+  left: 88px;
+  position: absolute;
+  top: 64px;
+  width: 11px;
+}
+
+.box .vector-67 {
+  height: 11px;
+  left: 24px;
+  position: absolute;
+  top: 0;
+  width: 11px;
+}
+
+.box .text-wrapper-4 {
+  color: #FDFCEE;
+  font-family: "Moonrise-Alternate", Helvetica;
+  font-size: 42px;
+  font-weight: 400;
+  top: 12px;
+  left: 34px;
+  letter-spacing: 3px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+}
+
+.box .inteligencia-wrapper {
+  align-items: center;
+  background-color: #3c1b67;
+  border: 0.4px solid;
+  border-color: #FDFCEE;
+  display: flex;
+  flex-direction: column;
+  height: 10px;
+  justify-content: center;
+  left: -2px;
+  padding: 5px 10px 10px;
+  position: absolute;
+  top: 56px;
+  width: 110px;
+}
+
+.box .inteligencia {
+  flex: 0 0 auto;
+  margin-bottom: -14px;
+  margin-left: -97.83px;
+  margin-right: -98.67px;
+  margin-top: -7.11px;
+  position: relative;
+}
+
+.box .overlap-4 {
+  height: 75px;
+  left: -9px;
+  position: relative;
+  width: 94px;
+}
+
+.box .vector-68 {
+  height: 67px;
+  left: 13px;
+  position: absolute;
+  top: 4px;
+  width: 67px;
+}
+
+.box .vector-69 {
+  height: 3px;
+  left: 45px;
+  position: absolute;
+  top: 69px;
+  width: 3px;
+}
+
+.box .vector-70 {
+  height: 3px;
+  left: 45px;
+  position: absolute;
+  top: 3px;
+  width: 3px;
+}
+
+.box .vector-71 {
+  height: 1px;
+  left: 12px;
+  position: absolute;
+  top: 37px;
+  width: 3px;
+}
+
+.box .vector-72 {
+  height: 3px;
+  left: 12px;
+  position: absolute;
+  top: 36px;
+  width: 3px;
+}
+
+.box .vector-73 {
+  height: 1px;
+  left: 79px;
+  position: absolute;
+  top: 36px;
+  width: 3px;
+}
+
+.box .vector-74 {
+  height: 3px;
+  left: 79px;
+  position: absolute;
+  top: 36px;
+  width: 3px;
+}
+
+.box .vector-75 {
+  height: 2px;
+  left: 22px;
+  position: absolute;
+  top: 59px;
+  width: 3px;
+}
+
+.box .vector-76 {
+  height: 3px;
+  left: 22px;
+  position: absolute;
+  top: 59px;
+  width: 3px;
+}
+
+.box .vector-77 {
+  height: 2px;
+  left: 22px;
+  position: absolute;
+  top: 14px;
+  width: 3px;
+}
+
+.box .vector-78 {
+  height: 3px;
+  left: 22px;
+  position: absolute;
+  top: 13px;
+  width: 3px;
+}
+
+.box .vector-79 {
+  height: 2px;
+  left: 69px;
+  position: absolute;
+  top: 61px;
+  width: 3px;
+}
+
+.box .vector-80 {
+  height: 3px;
+  left: 69px;
+  position: absolute;
+  top: 60px;
+  width: 3px;
+}
+
+.box .vector-81 {
+  height: 2px;
+  left: 69px;
+  position: absolute;
+  top: 12px;
+  width: 3px;
+}
+
+.box .vector-82 {
+  height: 3px;
+  left: 69px;
+  position: absolute;
+  top: 12px;
+  width: 3px;
+}
+
+.box .vector-83 {
+  height: 11px;
+  left: 73px;
+  position: absolute;
+  top: 64px;
+  width: 11px;
+}
+
+.box .vector-84 {
+  height: 11px;
+  left: 9px;
+  position: absolute;
+  top: 0;
+  width: 11px;
+}
+
+.box .text-wrapper-5 {
+  color: #FDFCEE;
+  font-family: "Moonrise-Alternate", Helvetica;
+  font-size: 42px;
+  font-weight: 400;
+  top: 12px;
+  left: 20px;
+  letter-spacing: 3px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+}
+
+.box .sabidura-wrapper {
+  align-items: center;
+  background-color: #3c1b67;
+  border: 0.4px solid;
+  border-color: #fffbca;
+  display: flex;
+  flex-direction: column;
+  height: 10px;
+  justify-content: center;
+  left: -8px;
+  padding: 5px 10px 10px;
+  position: absolute;
+  top: 56px;
+  width: 90px;
+}
+
+.box .sabidura {
+  flex: 0 0 auto;
+  margin-bottom: -14px;
+  margin-left: -99.57px;
+  margin-right: -99.8px;
+  margin-top: -7.57px;
+  position: relative;
+}
+
+.box .overlap-5 {
+  height: 75px;
+  left: -2px;
+  position: relative;
+  width: 81px;
+}
+
+.box .vector-85 {
+  height: 67px;
+  left: 6px;
+  position: absolute;
+  top: 4px;
+  width: 67px;
+}
+
+.box .vector-86 {
+  height: 3px;
+  left: 38px;
+  position: absolute;
+  top: 69px;
+  width: 3px;
+}
+
+.box .vector-87 {
+  height: 3px;
+  left: 38px;
+  position: absolute;
+  top: 3px;
+  width: 3px;
+}
+
+.box .vector-88 {
+  height: 1px;
+  left: 5px;
+  position: absolute;
+  top: 37px;
+  width: 3px;
+}
+
+.box .vector-89 {
+  height: 3px;
+  left: 5px;
+  position: absolute;
+  top: 36px;
+  width: 3px;
+}
+
+.box .vector-90 {
+  height: 1px;
+  left: 72px;
+  position: absolute;
+  top: 36px;
+  width: 3px;
+}
+
+.box .vector-91 {
+  height: 3px;
+  left: 72px;
+  position: absolute;
+  top: 36px;
+  width: 3px;
+}
+
+.box .vector-92 {
+  height: 2px;
+  left: 15px;
+  position: absolute;
+  top: 59px;
+  width: 3px;
+}
+
+.box .vector-93 {
+  height: 3px;
+  left: 15px;
+  position: absolute;
+  top: 59px;
+  width: 3px;
+}
+
+.box .vector-94 {
+  height: 2px;
+  left: 15px;
+  position: absolute;
+  top: 14px;
+  width: 3px;
+}
+
+.box .vector-95 {
+  height: 3px;
+  left: 15px;
+  position: absolute;
+  top: 13px;
+  width: 3px;
+}
+
+.box .vector-96 {
+  height: 2px;
+  left: 62px;
+  position: absolute;
+  top: 61px;
+  width: 3px;
+}
+
+.box .vector-97 {
+  height: 3px;
+  left: 62px;
+  position: absolute;
+  top: 60px;
+  width: 3px;
+}
+
+.box .vector-98 {
+  height: 2px;
+  left: 62px;
+  position: absolute;
+  top: 12px;
+  width: 3px;
+}
+
+.box .vector-99 {
+  height: 3px;
+  left: 62px;
+  position: absolute;
+  top: 12px;
+  width: 3px;
+}
+
+.box .vector-100 {
+  height: 11px;
+  left: 66px;
+  position: absolute;
+  top: 64px;
+  width: 11px;
+}
+
+.box .vector-101 {
+  height: 11px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 11px;
+}
+
+.box .text-wrapper-6 {
+  color: #FDFCEE;
+  font-family: "Moonrise-Alternate", Helvetica;
+  font-size: 42px;
+  font-weight: 400;
+  top: 12px;
+  left: 13px;
+  letter-spacing: 3px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+}
+
+.box .carisma-wrapper {
+  align-items: center;
+  background-color: #3c1b67;
+  border: 0.4px solid;
+  border-color: #fffbca;
+  display: flex;
+  flex-direction: column;
+  height: 10px;
+  justify-content: center;
+  left: -4px;
+  padding: 5px 10px 10px;
+  position: absolute;
+  top: 56px;
+  width: 70px;
+}
+
+.box .carisma {
+  flex: 0 0 auto;
+  margin-bottom: -14px;
+  margin-left: -100px;
+  margin-right: -100px;
+  margin-top: -7.24px;
+  position: relative;
+}
+
+.box .frame-2 {
+  align-items: left;
+  display: inline-flex;
+  flex-direction: column;
+  left: 235px;
+  position: absolute;
+  top: 280px;
+}
+
+.frame-2 span {
+  color: #FDFCEE;
+  font-size: 0.78rem;
+}
+
+.box .frame-3 {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 7px;
+  padding: 0px 0px;
+  position: relative;
+  width: 79px;
+}
+
+.box .ellipse {
+  height: 7px;
+  position: relative;
+  width: 7px;
+}
+
+.box .fuerza-2 {
+  flex: 0 0 auto;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+.box .frame-4 {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 7px;
+  margin-top: -4px;
+  padding: 2px 0px;
+  position: relative;
+  width: 79px;
+}
+
+.box .destreza-2 {
+  flex: 0 0 auto;
+  margin-right: -7.39px;
+  position: relative;
+}
+
+.box .constitucin-2 {
+  flex: 0 0 auto;
+  margin-right: -47.73px;
+  position: relative;
+}
+
+.box .inteligencia-2 {
+  flex: 0 0 auto;
+  margin-right: -33.58px;
+  position: relative;
+}
+
+.box .sabidura-2 {
+  flex: 0 0 auto;
+  margin-right: -10.24px;
+  position: relative;
+}
+
+.box .carisma-2 {
+  flex: 0 0 auto;
+  margin-right: -3.33px;
+  position: relative;
+}
+
+.box .frame-5 {
+  width: 150px;
+  align-items: left;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 450px;
+  left: 235px;
+  position: absolute;
+  overflow: visible;
+}
+
+.frame-5 span {
+  color: #FDFCEE;
+  font-size: 0.60rem;
+}
+
+.box .text-wrapper-7 {
+  color: #FDFCEE;
+  font-family: "Moonrise-Alternate", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 400px;
+  letter-spacing: 2px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 708px;
+}
+
+.passive-perception > span{
+  color: #FDFCEE;
+  font-family: "Moonrise-Alternate", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 380px;
+  letter-spacing: 2px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 712px;
+}
+
+.box .percepcin-pasiva-wrapper {
+  align-items: center;
+  background-color: #3c1b67;
+  justify-content: center;
+  left: 155px;
+  padding: 10px 14px;
+  position: absolute;
+  top: 710px;
+}
+
+.box .passive-perception > span {
+  font-family: 'Moonrise';
+  margin-top: -8px;
+  letter-spacing: 0.2rem;
+}
+
+.box .percepcin-pasiva {
+  color: #FDFCEE;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.box .group-2 {
+  height: 55px;
+  left: 85px;
+  position: absolute;
+  top: 703px;
+  width: 51px;
+}
+
+.box .overlap-6 {
+  height: 90px;
+  width: 90px;
+  left: 350px;
+  position: absolute;
+  top: 125px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+
+
+.box .overlap-wrapper {
+  height: 92px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 92px;
+}
+
+.box .overlap-7 {
+  height: 92px;
+  position: relative;
+}
+
+.box .vector-102 {
+  height: 82px;
+  left: 5px;
+  position: absolute;
+  top: 5px;
+  width: 82px;
+}
+
+.box .vector-103 {
+  height: 3px;
+  left: 44px;
+  position: absolute;
+  top: 85px;
+  width: 3px;
+}
+
+.box .vector-104 {
+  height: 4px;
+  left: 44px;
+  position: absolute;
+  top: 85px;
+  width: 4px;
+}
+
+.box .vector-105 {
+  height: 3px;
+  left: 44px;
+  position: absolute;
+  top: 3px;
+  width: 3px;
+}
+
+.box .vector-106 {
+  height: 2px;
+  left: 4px;
+  position: absolute;
+  top: 46px;
+  width: 3px;
+}
+
+.box .vector-107 {
+  height: 4px;
+  left: 4px;
+  position: absolute;
+  top: 44px;
+  width: 4px;
+}
+
+.box .vector-108 {
+  height: 2px;
+  left: 86px;
+  position: absolute;
+  top: 44px;
+  width: 3px;
+}
+
+.box .vector-109 {
+  height: 4px;
+  left: 85px;
+  position: absolute;
+  top: 44px;
+  width: 4px;
+}
+
+.box .vector-110 {
+  height: 2px;
+  left: 16px;
+  position: absolute;
+  top: 73px;
+  width: 3px;
+}
+
+.box .vector-111 {
+  height: 4px;
+  left: 16px;
+  position: absolute;
+  top: 73px;
+  width: 4px;
+}
+
+.box .vector-112 {
+  height: 2px;
+  left: 16px;
+  position: absolute;
+  top: 17px;
+  width: 3px;
+}
+
+.box .vector-113 {
+  height: 4px;
+  left: 15px;
+  position: absolute;
+  top: 16px;
+  width: 4px;
+}
+
+.box .vector-114 {
+  height: 2px;
+  left: 74px;
+  position: absolute;
+  top: 74px;
+  width: 3px;
+}
+
+.box .vector-115 {
+  height: 4px;
+  left: 73px;
+  position: absolute;
+  top: 73px;
+  width: 4px;
+}
+
+.box .vector-116 {
+  height: 2px;
+  left: 74px;
+  position: absolute;
+  top: 15px;
+  width: 3px;
+}
+
+.box .vector-117 {
+  height: 4px;
+  left: 73px;
+  position: absolute;
+  top: 15px;
+  width: 4px;
+}
+
+.box .vector-118 {
+  height: 14px;
+  left: 78px;
+  position: absolute;
+  top: 78px;
+  width: 14px;
+}
+
+.box .vector-119 {
+  height: 14px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 14px;
+}
+
+.box .element {
+  color: #FDFCEE;
+  font-family: "Moonglade DEMO-Regular", Helvetica;
+  font-size: 50px;
+  font-weight: 400;
+  height: 72px;
+  left: 14px;
+  letter-spacing: 4.2px;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  white-space: nowrap;
+}
+
+#profBonus {
+  position: absolute;
+  top: -48px;
+}
+
+.box .span {
+  color: #FDFCEE;
+  font-family: "Moonglade DEMO-Regular", Helvetica;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 4.2px;
+}
+
+.box .text-wrapper-8 {
+  font-family: "Moonrise-Regular", Helvetica;
+}
+
+.box .marco {
+  height: 96px;
+  left: 341px;
+  position: absolute;
+  top: 125px;
+  width: 96px;
+  cursor: pointer;
+  border-radius: 50%;
+}

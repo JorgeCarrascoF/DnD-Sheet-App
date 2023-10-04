@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Moonglade Bold';
+    src: url('./assets/fonts/Moonglade-bold.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moonrise';
+    src: url('../assets/fonts/Moonrise-Regular.otf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.SpellStats {
+    display: flex;
+    align-items: baseline;
+    margin-left: 70%;
+}
+
+.SpellStats > div{
+    margin-top: 40px;
+    width: 170px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 15px;
+    position: relative;
+}
+
+.SpellStats > div.spellBonus {
+    display: flex;
+    flex-direction: column;
+    color: #FDFCEE;
+}
+
+.SpellStats img {
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.spellBonusNumber{
+    position: absolute;
+    font-family: 'Moonrise';
+    letter-spacing: 0.2rem;
+    top: 33px;
+    left: 68px;
+    font-size: 2rem;
+
+}
+
+.spellBonusTitle {
+    font-weight: 500;
+    margin-top: -33px;
+}
+
+.spellSave {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FDFCEE;
+    position: relative;
+}
+
+.spellSave > .spellSaveNumber {
+    position: absolute;
+    font-size: 2.5rem;
+    top: 8px;
+    margin-left: 5px;
+    font-family: 'Moonrise';
+    letter-spacing: 0.2rem;
+}
+
+.spellSave > .spellSaveTitle {
+    font-weight: 500;
+}
+
+
+.spellBonus img {
+    height: 100px;
+    margin-bottom: 35px;
+}
+
+.spellSave img {
+    height: 90px;
+}

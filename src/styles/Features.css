@@ -1,0 +1,31 @@
+.Features  {
+    height: 90%;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.446);
+}
+
+.Features > div {
+    background-color: rgba(255, 255, 255, 0.446);
+    margin: 25px;
+}
+
+.FeaturesInfo {
+    height: 55%;
+}
+
+.Metamagic{
+    height: 35%;
+}
+
+.Features > div > h2 {
+    width: 95%;
+    margin-left: 10px;
+    padding: 5px 0;
+    border-bottom: 1px solid black;
+}
+
+.Features > div > p {
+    width: 95%;
+    text-align: justify;
+    margin: 0 10px;
+}

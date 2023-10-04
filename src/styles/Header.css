@@ -1,0 +1,130 @@
+section.header {
+    height: 140px;
+    z-index: 15;
+    width: 100vw;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: 'Moonrise';
+    src: url('../assets/fonts/Moonrise-Regular.otf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@keyframes flip-horizontal-bottom {
+    0% {
+        -webkit-transform: rotateX(0);
+        transform: rotateX(0);
+    }
+
+    100% {
+        -webkit-transform: rotateX(-180deg);
+        transform: rotateX(-180deg);
+    }
+}
+
+
+.header>div {
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.header > .Level {
+    height: 100%;
+}
+
+.header button {
+    margin: 10px;
+    padding: 5px;
+    color: black;
+}
+
+.header button:focus {
+    outline: none;
+}
+
+button.active {
+    color: #3c1b67;
+}
+
+
+.circle {
+    width: inherit;
+    height: inherit;
+    border-radius: 100%;
+}
+
+.circle img {
+    cursor: pointer;
+    width: 203px;
+    height: 203px;
+    border-radius: 50%;
+    animation: glowing 4s infinite ease-in-out;
+}
+
+.Name {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.Name>h1 {
+    width: auto;
+    font-family: 'Moonrise';
+    color: #FDFCEE;
+    font-size: 5rem;
+}
+
+.changePageButton {
+    display: flex;
+    position: absolute;
+    right: 20px;
+    color: #FDFCEE;
+    align-items: center;
+    border-radius: 50%;
+    flex-direction: column;
+}
+
+.changePageButton>img {
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.changePageButton > img:active {
+    animation: flip-horizontal-bottom 0.1s linear;
+}
+
+.changePageButton>span {
+    letter-spacing: 1px;
+    pointer-events: none;
+    position: absolute;
+    top: 28px;
+    margin-left: 2px;
+    font-size: 0.7rem;
+}
+
+.character-info {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+}
+
+.character-info>h2 {
+    border-left: 1px solid white;
+    margin-left: 15px;
+    padding-left: 15px;
+}
+
+.character-info>h2:first-child {
+    border: none;
+}

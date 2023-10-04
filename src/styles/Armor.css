@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Moonglade Bold';
+    src: url('./assets/fonts/Moonglade-bold.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moonrise';
+    src: url('../assets/fonts/Moonrise-Regular.otf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.Armor {
+    position: relative;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FDFCEE;
+}
+
+.Armor>img {
+    height: 100px;
+    rotate: 90deg;
+}
+
+.Armor>span.armorNumber {
+    position: absolute;
+    left: 33px;
+    top: 10px;
+    font-size: 3rem;
+    font-family: 'Moonrise';
+    letter-spacing: 0.5rem;
+}
+
+.Armor>span.title {
+    font-size: 1rem;
+    font-weight: 500;
+}

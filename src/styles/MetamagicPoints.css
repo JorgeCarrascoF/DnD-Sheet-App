@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&500&display=swap');
+
+
+@font-face {
+    font-family: 'Moonglade Bold';
+    src: url('./assets/fonts/Moonglade-bold.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moonrise';
+    src: url('../assets/fonts/Moonrise-Regular.otf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.MetamagicPoints {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: visible;
+}
+
+.MetamagicPoints > button {
+    padding: 0;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: #e6c285;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.MetamagicPoints > button:focus-visible {
+    outline:none;
+    border: none;
+}
+
+.MetamagicPoints > button:hover{
+    outline: none;
+    border: none;
+}
+
+.MetamagicPoints > button:focus{
+    outline: none;
+    border:none;
+}
+
+.MetamagicPoints > button:active{
+    outline: none;
+    border: none;
+}
+
+
+
+
+.MetamagicPoints > button.metamagicPointsAdd {
+    top: 34px;
+    right: 43px;
+    
+}
+
+.MetamagicPoints > button.metamagicPointsSub {
+    top: 34px;
+    left: 29px;
+    font-size: 1.6rem;
+    padding-bottom: 5px;
+
+}
+
+
+
+.MetamagicPoints > span.metamagicPointsTitle {
+    color: #e6c285;
+    width: 80%;
+    text-align: center;
+    line-height: normal;
+    font-weight: 500;
+}
+
+.MetamagicPoints > span.metamagicPointsNumber {
+    position: absolute;
+    font-size: 2rem;
+    top: 25px;
+    color: #e6c285;
+    font-family: 'Moonrise';
+}

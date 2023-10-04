@@ -1,0 +1,42 @@
+.spellSlotIcon {
+    width: 15px;
+    cursor: pointer;
+    position: absolute;
+    transform: translate(-50%);
+}
+
+.spellSlotIcon.position-1-0{
+    left: 40%;
+    top: 8px;
+}
+
+.spellSlotIcon.position-1-1{
+    left: 48%;
+    top: 22px;
+}
+
+.spellSlotIcon.position-1-2{
+    left: 56%;
+    top: 22px
+}
+
+.spellSlotIcon.position-1-3{
+    left: 64%;
+    top: 8px;
+}
+
+.spellSlotIcon.spellSlotIcon.position-2-0{
+    top: 11px;
+    left: 42%;
+}
+
+.spellSlotIcon.spellSlotIcon.position-2-1{
+
+    top: 11px;
+    left: 62.5%;
+}
+
+.spellSlotIcon.spellSlotIcon.position-2-2{
+    top: 22px;
+    left: 52%;
+}

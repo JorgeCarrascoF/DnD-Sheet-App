@@ -1,0 +1,37 @@
+.DeathSaves{
+    color: #FDFCEE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    z-index: 10;
+}
+
+.DeathSaves > .title {
+    border-bottom: 1px solid #FDFCEE;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+}
+
+.DeathSaves > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.DeathSaves > .success, .DeathSaves > .fail {
+    display: flex;
+    width: 80%;
+}
+
+.DeathSaves span {
+    font-weight: 500;
+}
+
+.DeathSaves > .success > div, .DeathSaves > .fail > div {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

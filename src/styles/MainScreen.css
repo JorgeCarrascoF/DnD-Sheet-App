@@ -1,0 +1,9 @@
+section.main {
+    height: calc(100% - 280px);
+    background-color: #1F163B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}

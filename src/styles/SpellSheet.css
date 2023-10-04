@@ -1,0 +1,106 @@
+section.SpellSheet {
+    height: calc(100% - 100px);
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    padding: 50px 30px 0 30px;
+    justify-content: space-between;
+    z-index: 1;
+    position: relative;
+}
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+    from {
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotating {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+
+
+.spellSheetBG {
+    z-index: 0;
+    height: 100%;
+    position: absolute;
+    left: 30%;
+    top: -260px;
+    opacity: 0.6;
+
+    -webkit-animation: rotating 270s linear infinite;
+    -moz-animation: rotating 270s linear infinite;
+    -ms-animation: rotating 270s linear infinite;
+    -o-animation: rotating 270s linear infinite;
+    animation: rotating 270s linear infinite;
+}
+
+.SpellsLvl {
+    height: 60%;
+    width: 18%;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.446);
+}
+
+.LvlTitle {
+    position: absolute;
+    top: 0rem;
+    width: 100%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.LvlTitle .slots {
+    margin-right: 5px;
+}
+
+.LvlTitle h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.LvlTitle .spellslot,
+svg {
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+
+.Spell {
+    margin: 0 20px;
+    background-color: rgba(255, 255, 255, 0.446);
+}
+
+.Spell h4 {
+    margin: 15px 20px;
+}
+
+.SpellsLvl.Two,
+.SpellsLvl.Four {
+    margin-top: 100px;
+}
+
+.SpellsLvl.Three {
+    margin-top: 200px;
+}

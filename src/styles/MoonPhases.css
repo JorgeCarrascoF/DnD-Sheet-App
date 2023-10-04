@@ -1,0 +1,38 @@
+.MoonPhases {
+    position: absolute;
+    left: calc(50% - 242px);
+}
+
+.MoonPhases > div {
+    margin-top: 70px;
+    position: relative;
+}
+
+
+.MoonPhases > img.moonFrame {
+    height: 200px;
+}
+
+.MoonPhases img.currentMoonPhase {
+    height: 160px;
+    position: absolute;
+    top: 22px;
+    left: 158px;
+    z-index: 10;
+    cursor: pointer;
+    opacity: 1;
+}
+
+@keyframes fading {
+    0%, 100% {
+        opacity: 1,
+    }
+    50% {
+        opacity: 0,
+    }
+
+}
+
+.currentMoonPhase:active{
+    animation: fading 2s ease-in-out;
+}

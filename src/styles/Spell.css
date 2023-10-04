@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+
+@font-face {
+    font-family: 'Moonglade Bold';
+    src: url('../assets/fonts/Moonglade-bold.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moonrise';
+    src: url('../assets/fonts/Moonrise-Regular.otf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.spell {
+    width: 248px;
+    max-height: 100px;
+    position: relative;
+}
+
+/* 
+.loader {
+    width: 20px;
+    height: 20px;
+    z-index: 15;
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: animloader 1s linear infinite;
+} */
+/* 
+@keyframes animloader {
+    0% {
+        box-shadow: -72px 0 #FDFCEE inset;
+    }
+
+    100% {
+        box-shadow: 48px 0 #FDFCEE inset;
+    }
+} */
+
+
+.spell .title {
+    height: 48px;
+    border-radius: 100px 0% 0% 100px;
+    font-size: 0.8rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: #FDFCEE;
+
+}
+
+.spell .circle {
+    position: absolute;
+    right: 0px;
+    top: 9px;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #FDFCEE;
+    background-color: #1d163b;
+    box-shadow: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Moonrise';
+    font-size: 1.2rem;
+}
+
+.spell .circle>img.delete {
+    height: 18px;
+}
+
+.spell .circle>img.delete.disabled {
+    display: none;
+}
+
+
+.title .frame {
+    width: 100%;
+    padding: 0;
+    height: auto;
+    margin: 0;
+    position: static;
+}
+
+.spell .title .frame img {
+    width: 228px;
+    fill: #FDFCEE;
+}
+
+.title h3 {
+    width: 180px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    position: absolute;
+    left: 15px;
+    z-index: 5;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.spell .title .input {
+    width: 70%;
+    position: absolute;
+    left: 10px;
+    z-index: 5;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.check {
+    margin-left: 10px;
+}
+
+
+.spell .title .input input {
+    border: none;
+    outline: none;
+    padding: 2px 5px;
+    font-size: 0.8rem;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.input>img.check {
+    max-height: 15px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #2A1E51;
+    border: 2px solid #FDFCEE;
+    color: #FDFCEE;
+    border-radius: 15px;
+    width: 85%;
+    padding: 15px 15px;
+    font-size: 0.8rem;
+    position: absolute;
+    z-index: 20;
+    user-select: text;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.description .spellTitle {
+    font-family: 'Moonglade Bold';
+    border-bottom: 1px solid #FDFCEE;
+    padding-bottom: 3px;
+    width: 100%;
+}
+
+.description p {
+    font-family: 'Montserrat', sans-serif;
+    max-height: 200px;
+    padding-right: 5px;
+    overflow: auto;
+    margin: 8px 0;
+
+    background:
+      /* Shadow Cover TOP */
+      linear-gradient(
+        #2A1E51 30%,
+        #2A1E51
+      ) center top,
+      
+      /* Shadow Cover BOTTOM */
+      linear-gradient(
+        #2A1E51, 
+        #2A1E51 70%
+      ) center bottom,
+      
+      /* Shadow TOP */
+      radial-gradient(
+        farthest-side at 50% 0,
+        #3c1b67,
+        rgba(0, 0, 0, 0)
+      ) center top,
+      
+      /* Shadow BOTTOM */
+      radial-gradient(
+        farthest-side at 50% 100%,
+        #3c1b67,
+        rgba(0, 0, 0, 0)
+      ) center bottom;
+    
+    background-repeat: no-repeat;
+    background-size: 100% 40px, 100% 40px, 100% 14px, 100% 14px;
+    background-attachment: local, local, scroll, scroll;
+
+}
+
+.description p::-webkit-scrollbar {
+    width: 5px;
+}
+
+.description p::-webkit-scrollbar-track {
+    background-color: #3c1b67a7;
+    border-radius: 2px;
+}
+
+.description p::-webkit-scrollbar-thumb {
+
+    background-color: #FDFCEE;
+    border-radius: 2px;
+}
+
+.description .spellHigherLevel {
+    border-top: 1px solid #FDFCEE;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.spell ul {
+    z-index: 20;
+    margin-top: 10px;
+    background-color: #3c1b67;
+    border: 3px solid #FDFCEE;
+    color: #FDFCEE;
+    border-radius: 15px;
+    width: 90%;
+    padding: 10px 10px;
+    font-size: 0.8rem;
+    position: absolute;
+    border-radius: 15px;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.spell li {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.spellTitle,
+.spellStats {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.spellStats {
+    width: 90%;
+    margin-top: 10px;
+    border-radius: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-end;
+    justify-content: space-evenly;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.spellStats>.text {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: end;
+    color: #3c1b67;
+    gap: 5px;
+    font-size: 0.7rem;
+}
+
+.spellStats>.text>* {
+    border-radius: 35px;
+    background-color: #FDFCEE;
+    padding: 3px 10px;
+    height: auto;
+    margin: 0;
+}
+
+
+
+.spellStats img {
+    max-width: 20px;
+    background-color: #FDFCEE;
+    padding: 3px 5px;
+    border-radius: 20px;
+}

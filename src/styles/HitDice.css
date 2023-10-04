@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&500&display=swap');
+
+
+@font-face {
+    font-family: 'Moonglade Bold';
+    src: url('./assets/fonts/Moonglade-bold.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moonrise';
+    src: url('../assets/fonts/Moonrise-Regular.otf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.HitDice {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.HitDice > img {
+    height: 120px;
+}
+
+.HitDice>button {
+    padding: 0;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: #FDFCEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.HitDice>button:focus-visible {
+    outline: none;
+    border: none;
+}
+
+.HitDice>button:hover {
+    outline: none;
+    border: none;
+}
+
+.HitDice>button:focus {
+    outline: none;
+    border: none;
+}
+
+.HitDice>button:active {
+    outline: none;
+    border: none;
+}
+
+
+
+
+.HitDice>button.hitDiceAdd {
+    top: 0px;
+    left: 64px;
+    padding-top: 1px;
+
+}
+
+.HitDice>button.hitDiceSub {
+    bottom: 20px;
+    left: 64px;
+    font-size: 1.6rem;
+    padding-bottom: 5px;
+}
+
+
+
+.HitDice>span.hitDiceTitle {
+    color: #FDFCEE;
+    width: 100%;
+    text-align: center;
+    line-height: normal;
+    font-weight: 500;
+}
+
+.HitDice>span.hitDiceNumber {
+    position: absolute;
+    font-size: 2.5rem;
+    top: 20px;
+    color: #FDFCEE;
+    font-family: 'Moonrise';
+}

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&500&display=swap');
+
+@font-face {
+    font-family: 'Moonglade Bold';
+    src: url('./assets/fonts/Moonglade-bold.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moonrise';
+    src: url('../assets/fonts/Moonrise-Regular.otf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.Attack {
+    width: 100%;
+    color: #FDFCEE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.Attack:hover {
+    background-color: #2A1E51;
+}
+
+.Attack>.check {
+    height: 10px;
+    cursor: pointer;
+}
+
+.Attack>.attackTitle {
+    width: 50%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.Attack>input.attackTitle {
+    width: 58%;
+    border: none;
+}
+
+.Attack>.impact,
+.Attack>.damage {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    font-family: 'Moonrise';
+    letter-spacing: 0.1rem;
+}
+
+.Attack input {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    font-size: 0.9rem;
+    line-height: 1rem;
+}
+
+.Attack input.attackImpact {
+    width: 35%;
+    border-radius: 5px;
+    border: none;
+}
+
+.Attack input.attackDamage {
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+}
+
+.Attack>div>span {
+    margin-left: 4px;
+}
+
+.Attack img.icon {
+    height: 12px;
+}

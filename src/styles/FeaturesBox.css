@@ -1,0 +1,101 @@
+.FeaturesBox {
+  height: 890px;
+  width: 489px;
+  background-image: url(../img/StatsBox/StatBoxBackground.svg);
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.FeaturesBox .group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 70%;  
+}
+
+.FeaturesBox .frame {
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #c6b67c;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  left: 153px;
+  padding: 10px 10px 8px;
+  position: absolute;
+  top: 670px;
+  width: 215px;
+}
+
+.FeaturesBox .text-wrapper {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, rgb(255, 246.89, 144.5) 0%, rgb(192.31, 173.34, 73.72) 100%);
+  background-clip: text;
+  color: transparent;
+  font-family: "Moonglade DEMO-Bold", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 4.05px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.FeaturesBox .div-wrapper {
+  align-items: flex-end;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #fef690;
+  display: flex;
+  height: 12px;
+  left: 53px;
+  padding: 5px 10px;
+  position: absolute;
+  top: 191px;
+  width: 400px;
+}
+
+.FeaturesBox .div {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, rgb(255, 246.89, 144.5) 0%, rgb(192.31, 173.34, 73.72) 100%);
+  background-clip: text;
+  color: transparent;
+  flex: 1;
+  font-family: "Moonglade DEMO-Bold", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2.52px;
+  line-height: normal;
+  margin-top: -19px;
+  position: relative;
+}
+
+.FeaturesBox .frame-2 {
+  align-items: flex-end;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #fef690;
+  display: flex;
+  height: 12px;
+  left: 53px;
+  padding: 5px 10px;
+  position: absolute;
+  top: 437px;
+  width: 400px;
+}
+
+.FeaturesBox .img {
+  height: 39px;
+  left: 121px;
+  position: absolute;
+  top: 718px;
+  width: 272px;
+}

@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Moonglade Bold';
+    src: url('./assets/fonts/Moonglade-bold.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moonrise';
+    src: url('../assets/fonts/Moonrise-Regular.otf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.HitPoints {
+    width: fit-content;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.HitPoints>span {
+    color: #FDFCEE;
+    font-weight: 500;
+}
+
+.HitPoints>.points {
+    pointer-events: all;
+    position: absolute;
+    width: 75px;
+    height: 45px;
+    color: #FDFCEE;
+    top: -1px;
+    letter-spacing: 0.1rem;
+    left: 37px;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    z-index: 5;
+    font-family: 'moonrise';
+}
+
+.HitPoints > .points > span{
+    margin-top: -1px;
+    width: 31px;
+    text-align: center;
+}
+
+
+.HitPoints>.points>.separation {
+    height: 2rem;
+    margin: 0 6px ;
+    width: 1px;
+    background-color: #FDFCEE;
+}
+
+.HitPoints .currentHitPoints {
+    pointer-events: all;
+    cursor: pointer;
+}
+
+.HitPoints input.currentHitPoints {
+    width: 25px;
+    background-color: #1F163B;
+    color: #FDFCEE;
+    border: 1px solid #FDFCEE;
+    font-family: "Moonrise";
+    border-radius: 3px;
+    font-size: 1.3rem;
+    text-align: center;
+    /* Remove arrows for changing hp */
+    -moz-appearance: textfield;
+}
+
+input.currentHitPoints::-webkit-inner-spin-button,
+input.currentHitPoints::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.HitPoints .maxHitPoints{
+    cursor: pointer;
+}
+
+.HitPoints input.maxHitPoints{
+    width: 25px;
+    background-color: #1F163B;
+    font-family: "Moonrise";
+    color: #FDFCEE;
+    border: 1px solid #FDFCEE;
+    border-radius: 3px;
+    font-size: 1.3rem;
+    text-align: center;
+    /* Remove arrows for changing hp */
+    -moz-appearance: textfield;
+}
+
+input.maxHitPoints::-webkit-inner-spin-button,
+input.maxHitPoints::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+
+.HitPoints>img {
+    width: 150px;
+}

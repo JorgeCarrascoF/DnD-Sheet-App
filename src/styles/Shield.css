@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Moonglade Bold';
+    src: url('./assets/fonts/Moonglade-bold.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moonrise';
+    src: url('../assets/fonts/Moonrise-Regular.otf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.Shield {
+    width: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Shield>img {
+    height: 100px;
+}
+
+.Shield>span {
+    color: #FDFCEE;
+    font: 2rem;
+    font-weight: 500;
+}
+
+.Shield>.shieldPointsArea {
+    width: 50px;
+    position: absolute;
+    top: 29px;
+    left: 26px;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Shield>.shieldPointsArea {
+    font-family: 'Moonrise';
+    letter-spacing: 0.2rem;
+}
+
+.Shield .shieldPoints {
+    width: 42px;
+    height: 45px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+    color: #FDFCEE;
+    cursor: pointer;
+}
+
+.Shield span.shieldPoints {
+    margin-top: -22px;
+    margin-left: 0px;
+}
+
+.Shield input.shieldPoints {
+    font-size: 2rem;
+    height: 35px;
+    width: 30px;
+    top: 25px;
+    left: 25px;
+    overflow: visible;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Moonrise";
+    background-color: #1F163B;
+    border: 1px solid transparent;
+    outline: 1px solid #FDFCEE;
+}

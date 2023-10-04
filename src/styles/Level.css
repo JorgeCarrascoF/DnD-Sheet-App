@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Moonglade Bold';
+    src: url('./assets/fonts/Moonglade-bold.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moonrise';
+    src: url('../assets/fonts/Moonrise-Regular.otf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.Level {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 25px;
+    margin-top: 20px;
+    position: absolute;
+    color: #FDFCEE;
+    left: 380px;
+}
+
+.Level > .levelNumber {
+    font-family: 'Moonrise';
+    font-size: 3.5rem;
+    position: absolute;
+    top: 12px;
+}
+
+.Level > button {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    border-radius: 50%;
+    background-color: transparent;
+    font-family: 'Moonrise';
+    color: #FDFCEE;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Level > button:hover, .Level > button:focus, .Level > button.active, .Level > button:focus-visible{
+    outline: none;
+    border: none;
+}
+
+.Level > button.addLevel{
+    right: -27px;
+    top: 26px;
+}
+
+.Level > button.subLevel {
+    left: -27px;
+    top: 26px;
+}
+
+.Level > img {
+    height: 60%;
+}
