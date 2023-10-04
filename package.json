@@ -1,0 +1,63 @@
+{
+  "name": "dnd-sheet",
+  "private": true,
+  "version": "0.0.0",
+  "author": "Jorge Carrasco",
+  "desc": "",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "electron-store": "^8.1.0",
+    "react": "^18.2.0",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-detect-click-outside": "^1.1.7",
+    "react-dom": "^18.2.0",
+    "react-tsparticles": "^2.12.2",
+    "translate": "^2.0.2",
+    "tsparticles": "^2.12.0",
+    "tsparticles-slim": "^2.12.0",
+    "write-json-file": "^5.0.0"
+  },
+  "build": {
+    "appId": "electron-react-vite",
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "electron/Icon.ico"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/main.cjs",
+      "node_modules/**/*",
+      "package.json"
+    ],
+    "nsis": {
+      "uninstallDisplayName": "Uninstall this app",
+      "license": "license.txt",
+      "oneClick": "false",
+      "allowToChangeInstallationDirectory": "true"
+    },
+    "directories": {
+      "output": "releases",
+      "buildResources": "dist"
+    }
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "electron": "^25.5.0",
+    "electron-builder": "^24.6.4",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "vite": "^4.4.5"
+  }
+}
