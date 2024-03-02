@@ -38,7 +38,7 @@ section.header {
     align-items: center;
 }
 
-.header > .Level {
+.header>.Level {
     height: 100%;
 }
 
@@ -100,7 +100,7 @@ button.active {
     border-radius: 50%;
 }
 
-.changePageButton > img:active {
+.changePageButton>img:active {
     animation: flip-horizontal-bottom 0.1s linear;
 }
 
